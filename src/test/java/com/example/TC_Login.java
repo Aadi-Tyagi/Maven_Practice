@@ -12,7 +12,7 @@ import java.time.Duration;
 public class TC_Login {
 
     @Test
-    public void login_Test() throws InterruptedException {
+    public void login_test() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
